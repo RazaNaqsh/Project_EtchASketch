@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #bde0fe;
+}
+div.header{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #d00000;
+}
