@@ -19,19 +19,31 @@ div.header{
     border: 2px solid;
     display: flex;
     flex-wrap: wrap;
-    margin: 4rem auto;
+    margin: 5rem;
+    margin-right: 20rem;
     background-color: white;
+    flex-shrink: 0;
 }
 .gridItem{
     border: 1px solid;
 }
+.sketchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 2rem;
+}
 .buttonSection{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 2rem;
 }
 button{
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 2rem;
+    font-size: 1.7rem;
     font-family: cursive;
+    border-radius: 2rem;
+    background-color: #cbf3f0;
+
 }
